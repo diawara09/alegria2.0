@@ -62,6 +62,8 @@ app.post("/", async(req,res) => {
 
       const cinetReq = await fetch('https://api-checkout.cinetpay.com/v2/payment',config)
       const response = await cinetReq.json()
+
+      console.log(response);
      
       return response.data ?  res.send(response.data):res.send(response.message)
 
