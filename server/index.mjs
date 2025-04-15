@@ -45,7 +45,7 @@ app.post("/", async(req,res) => {
         "customer_address": "Bamako",
         "customer_city": "Bamako",
         "customer_country": "ML",
-        "customer_state": "ML",
+        "customer_state": "TR",
         "customer_zip_code": "91094",
         "alternative_currency": "",
         "description": description,
