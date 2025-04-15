@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import logo from "../Images/logo.jpeg"
 
 export default function Navbar(){
@@ -29,11 +30,10 @@ export default function Navbar(){
                 <ul className="dropdown-menu dropdown-open:opacity-100 hidden" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-link" >
                 <li><a className="dropdown-item" href="#">A Propos de Nous</a></li>
                   <li><a className="dropdown-item" href="#">Notre Equipe</a></li>
-                
                 </ul>
               </li>
               <li><a href="#">Contact</a></li>
-              <li><a href="#" className="btn btn-primary"> Faire un don </a></li>
+              <li><Link to="/payment" className="btn btn-primary"> Faire un don </Link></li>
               <li><a href="#" className="btn btn-secondary"> Devenir Benevole </a></li>
             </ul>
           </div>
