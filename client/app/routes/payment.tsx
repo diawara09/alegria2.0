@@ -1,6 +1,6 @@
 import { redirect, useFetcher } from "react-router"
 import toast,{Toaster} from 'react-hot-toast'
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import type { Route } from "./+types/payment"
 
 export async function clientAction({request}: Route.ClientActionArgs){
@@ -14,7 +14,10 @@ export async function clientAction({request}: Route.ClientActionArgs){
     })
 
     const response = await req.json()
-    return response.payment_url ?  redirect(response.payment_url): console.log(response)
+    if(response.payment_url){
+        window.location.href = response.payment_url
+    } 
+    return response
 
 
 }
@@ -22,6 +25,15 @@ export async function clientAction({request}: Route.ClientActionArgs){
 export default function Payment(){
     const fetcher = useFetcher()
     const [amount, setAmount] = useState(1000)
+
+    useEffect(() => {
+        toast.dismiss()
+      fetcher.data
+        ? fetcher.data.payment_url
+          ? toast.success("Redirecting...", toastOptions)
+          : toast.error(fetcher.data.message, toastOptions)
+        : ''
+    })
     return(<div className="w-full flex m-5 p-5 justify-center items-center">
         <fetcher.Form method="post" className="card rounded-none lg:min-w-96 sm:max-w-sm">
           <div className="card-body">
