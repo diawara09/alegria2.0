@@ -1,10 +1,20 @@
 import express from 'express'
 import 'dotenv/config'
+import cors from 'cors'
 
+
+const corsOptions = {
+    origin: ['http://localhost:5173', 'https://alegria2-0.vercel.app'],
+    //credentials: true,
+    optionsSuccessStatus: 200,
+    credentials: true,
+  }
 const app = express()
 
 const port = process.env.PORT || 5500
 
+
+app.use(cors(corsOptions))
 app.use(express.json())
 
 app.get('/', (req, res) => {
