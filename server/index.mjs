@@ -44,7 +44,7 @@ app.post("/", async(req,res) => {
         "customer_phone_number": "+22370213798",
         "customer_address": "Bamako",
         "customer_city": "Bamako",
-        "customer_country": "CI",
+        "customer_country": "SN",
         "customer_state": "ML",
         "customer_zip_code": "91094",
         "alternative_currency": "",
