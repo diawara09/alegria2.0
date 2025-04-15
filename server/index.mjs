@@ -51,7 +51,7 @@ app.post("/", async(req,res) => {
         "description": description,
         "notify_url": notifyUrl,
         "return_url": returnUrl,
-        "channels": "ALL",
+        "channels": "CREDIT_CARD",
         "metadata": "user1",
         "lang": "FR",
         "invoice_data": {
