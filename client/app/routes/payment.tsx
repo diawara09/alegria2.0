@@ -10,7 +10,7 @@ export async function clientAction({request}: Route.ClientActionArgs){
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(Object.fromEntries(formData))
     })
 
     const response = await req.json()
@@ -25,7 +25,6 @@ export async function clientAction({request}: Route.ClientActionArgs){
 
 export default function Payment(){
     const fetcher = useFetcher()
-    const [amount, setAmount] = useState(1000)
 
     useEffect(() => {
         const toastOptions = {
