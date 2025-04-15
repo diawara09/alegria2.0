@@ -26,7 +26,7 @@ app.post("/", async(req,res) => {
         "apikey": apiKey,
         "site_id": siteId,
         "transaction_id":  transactionId, //
-        "amount": amount,
+        "amount": parseInt(amount),
         "currency": currency,
         "alternative_currency": "",
         "description": description,

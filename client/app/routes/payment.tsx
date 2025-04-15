@@ -27,6 +27,9 @@ export default function Payment(){
     const [amount, setAmount] = useState(1000)
 
     useEffect(() => {
+        const toastOptions = {
+            duration: 5000,
+          }
         toast.dismiss()
       fetcher.data
         ? fetcher.data.payment_url
@@ -55,7 +58,12 @@ export default function Payment(){
               />
              
             </div>
-            <input type="number" min={0} name="amount" value={amount} />
+            <div className="">
+              <label className="label-text" htmlFor="amount">
+                Montant (en FCFA)
+              </label>
+            <input type="number" id="amount" step={500} min={1000} name="amount" />
+            </div>
             <Toaster />
             <div className="card-actions">
               <button type="submit" className="btn btn-primary">
