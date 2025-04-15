@@ -5,7 +5,7 @@ import type { Route } from "./+types/payment"
 
 export async function clientAction({request}: Route.ClientActionArgs){
     const formData = await request.formData()
-    const req = await fetch("https://localhost:300/", {
+    const req = await fetch("https://alegria2-0.onrender.com/", {
         method: "post",
         headers: {
             'Content-Type': 'application/json'
