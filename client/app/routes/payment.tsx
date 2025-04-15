@@ -62,7 +62,7 @@ export default function Payment(){
               <label className="label-text" htmlFor="amount">
                 Montant (en FCFA)
               </label>
-            <input type="number" id="amount" step={500} min={1000} name="amount" />
+            <input type="number" className="input" id="amount" step={500} min={1000} name="amount" />
             </div>
             <Toaster />
             <div className="card-actions">
