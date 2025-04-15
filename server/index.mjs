@@ -26,7 +26,7 @@ app.post("/", async(req,res) => {
     const apiKey = process.env.CINET_API
     const siteId = process.env.SITE_ID
     const transactionId = Math.floor(Math.random() * 100000000).toString()
-    const currency = "USD"
+    const currency = "XOF"
     const description = `${fullName} has donated ${amount} FCFA!`
     const notifyUrl = `https://localhost:${port}/notify`
     const returnUrl = `https://localhost:${port}/return`
@@ -44,14 +44,14 @@ app.post("/", async(req,res) => {
         "customer_phone_number": "+22370213798",
         "customer_address": "Bamako",
         "customer_city": "Bamako",
-        "customer_country": "ML",
-        "customer_state": "ML",
+        "customer_country": "CI",
+        "customer_state": "CI",
         "customer_zip_code": "065100",
         "alternative_currency": "",
         "description": description,
         "notify_url": notifyUrl,
         "return_url": returnUrl,
-        "channels": "ALL",
+        "channels": "CREDIT_CARD",
         "metadata": "user1",
         "lang": "FR",
         "invoice_data": {
