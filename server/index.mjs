@@ -26,7 +26,7 @@ app.post("/", async(req,res) => {
     const apiKey = process.env.CINET_API
     const siteId = process.env.SITE_ID
     const transactionId = Math.floor(Math.random() * 100000000).toString()
-    const currency = "XOF"
+    const currency = "USD"
     const description = `${fullName} has donated ${amount} FCFA!`
     const notifyUrl = `https://localhost:${port}/notify`
     const returnUrl = `https://localhost:${port}/return`
@@ -51,7 +51,7 @@ app.post("/", async(req,res) => {
         "description": description,
         "notify_url": notifyUrl,
         "return_url": returnUrl,
-        "channels": "CREDIT_CARD",
+        "channels": "ALL",
         "metadata": "user1",
         "lang": "FR",
         "invoice_data": {
