@@ -5,8 +5,8 @@
 @plugin "flyonui/theme" {
   name: "light";
   default: true;
-  --color-primary: #bf7c51;
-  --color-secondary: #0e5899;
+  --color-primary: #3ca6d1;
+  --color-secondary: #cc2b65;
 }
 @plugin "@iconify/tailwind4";
 @import "../node_modules/flyonui/variants.css"; /* Require only if you want to use FlyonUI JS component */
@@ -29,6 +29,6 @@ body {
 body{
   @apply max-w-screen overflow-x-hidden;
 }
-.btn, input, .menu,.input,textarea,select,nav{
+.btn, input, .menu,.input,textarea,select,nav, .carousel{
   @apply rounded-none ;
 }
