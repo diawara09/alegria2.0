@@ -14,6 +14,7 @@ export async function clientAction({request}: Route.ClientActionArgs){
     })
 
     const response = await req.json()
+    console.log(response);
     if(response.payment_url){
         window.location.href = response.payment_url
     } 
