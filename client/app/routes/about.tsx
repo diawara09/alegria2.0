@@ -59,19 +59,19 @@ export default function About(){
         </div>
     </div>
     <div className="flex flex-wrap items-center -mt-10 gap-5 p-10 lg:p-20 overflow-x-hidden">
-        <div className="flex flex-col min-w-xs flex-1 p-10">
+        <div className="flex flex-col min-w-60 flex-1 p-10">
             <img className="max-w-24" src={independence} />
             <h1 className="text-2xl font-bold my-3">Independence</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti qui consequuntur repellat placeat rerum? Tempore, inventore nemo cumque, ullam nam sint quisquam nisi, fuga tenetur quia quo doloremque quas sequi quam? 
                 Incidunt quidem quibusdam optio iste quae totam? Sed, quis voluptas cupiditate nisi quos consectetur!</p>
         </div>
-        <div className="flex flex-col min-w-xs flex-1 p-10">
+        <div className="flex flex-col min-w-60 flex-1 p-10">
             <img className="max-w-24" src={autonomy} />
             <h1 className="text-2xl font-bold my-3">Autonomie</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti qui consequuntur repellat placeat rerum? Tempore, inventore nemo cumque, ullam nam sint quisquam nisi, fuga tenetur quia quo doloremque quas sequi quam? 
                 Incidunt quidem quibusdam optio iste quae totam? Sed, quis voluptas cupiditate nisi quos consectetur!</p>
         </div>
-        <div className="flex flex-col min-w-xs flex-1 p-10">
+        <div className="flex flex-col min-w-60 flex-1 p-10">
             <img className="max-w-24" src={benvole} />
             <h1 className="text-2xl font-bold my-3">Benevoles</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti qui consequuntur repellat placeat rerum? Tempore, inventore nemo cumque, ullam nam sint quisquam nisi, fuga tenetur quia quo doloremque quas sequi quam? 
@@ -105,7 +105,7 @@ export default function About(){
 
     </div>
     <div className="flex flex-wrap px-10 justify-around overflow-x-hidden">
-        <div className="bg-black flex flex-col text-white min-w-xs p-10 flex-1">
+        <div className="bg-black flex flex-col text-white min-w-60 p-10 flex-1">
             <h1 className="text-3xl font-bold">Donner</h1>
             <p className="my-3">En donnant à ALEGRIA, nous assurons que 100% de votre don est reversé pour les missions en cours.</p>
             <Link className="btn btn-primary" to={"#"}>Donner Maintenant</Link>
@@ -117,7 +117,7 @@ export default function About(){
             <Link className="btn btn-secondary" to={"#"}>Prochainement</Link>
         </div>
 
-        <div className="bg-black flex flex-col text-white min-w-xs p-10 flex-1">
+        <div className="bg-black flex flex-col text-white min-w-60 p-10 flex-1">
             <h1 className="text-3xl font-bold">Rejoindre</h1>
             <p className="my-3">Rejoignez l’aventure HEVA et devenez bénévole !</p>
             <Link className="btn btn-primary" to={"#"}>Rejoindre</Link>
