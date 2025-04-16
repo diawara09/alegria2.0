@@ -28,7 +28,7 @@ export default function Navbar(){
                   <span className="icon-[tabler--chevron-down] dropdown-open:rotate-180 size-4"></span>
                 </button>
                 <ul className="dropdown-menu dropdown-open:opacity-100 hidden" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-link" >
-                <li><a className="dropdown-item" href="#">A Propos de Nous</a></li>
+                <li><Link className="dropdown-item" to="/about">A Propos de Nous</Link></li>
                   <li><a className="dropdown-item" href="#">Notre Equipe</a></li>
                 </ul>
               </li>
