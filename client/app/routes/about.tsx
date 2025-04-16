@@ -52,10 +52,10 @@ export default function About(){
             <h3 className="font-bold text-lg lg:text-2xl my-3">Nous découvrir</h3>
             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium omnis quas eius alias 
                 repudiandae eligendi voluptas sed. Pariatur rem tempore nam minima, in sunt? </p>
-                <button className="btn btn-primary max-w-1/3 my-3">Voir la video</button>
+                <button className="btn btn-primary my-3">Voir la video</button>
         </div>
         <div>
-        <iframe className="min-w-sm min-h-72" src="https://www.youtube.com/embed/e1IUuncr71E?si=l_xEi9yhSCkwCzmC" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe className="min-w-60 lg:min-w-sm min-h-72" src="https://www.youtube.com/embed/e1IUuncr71E?si=l_xEi9yhSCkwCzmC" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
     </div>
     <div className="flex flex-wrap items-center -mt-10 gap-5 p-10 lg:p-20 overflow-x-hidden">
