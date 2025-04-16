@@ -47,7 +47,7 @@ export default function About(){
         </div>
     </div>
     <div className="flex flex-wrap items-center  gap-5 p-10 lg:p-20 overflow-x-hidden">
-        <div className="flex flex-col min-w-sm lg:max-w-1/2">
+        <div className="flex flex-col min-w-60 lg:min-w-sm lg:max-w-1/2">
             <span className="text-secondary uppercase font-light">ALEFRIA - HELP FOR EDUCATION AND VILLAGERS IN AFRICA</span>
             <h3 className="font-bold text-lg lg:text-2xl my-3">Nous découvrir</h3>
             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium omnis quas eius alias 
@@ -81,7 +81,7 @@ export default function About(){
     </div>
 
     <div className="flex flex-wrap bg-primary items-center gap-5 p-10 lg:p-20 overflow-x-hidden">
-        <div className="min-w-sm flex-1 flex flex-col text-white">
+        <div className="min-w-60 lg:min-w-sm flex-1 flex flex-col text-white">
             <span className="uppercase text-secondary">Transparence</span>
             <h1 className="text-2xl lg:text-4xl my-3">Comment sont utilisés les dons ?</h1>
             <p>Nous sommes fiers de vous informer que la totalité de votre don est utilisée pour soutenir
@@ -99,7 +99,7 @@ export default function About(){
         </div>
     </div>
     <div className="flex flex-col  justify-center items-center gap-10 p-10 lg:p-20 overflow-x-hidden">
-        <h1 className="text-3xl lg:text-5xl">Vous souhaitez rejoindre notre équipe ?</h1>
+        <h1 className="text-3xl lg:text-5xl text-center">Vous souhaitez rejoindre notre équipe ?</h1>
         <p className="border-2 p-5 text-center">“L’engagement est ce qui transforme une promesse en réalité.”</p>
         <Link to={"#"} className="btn btn-primary">Devenir Benevole</Link>
 
