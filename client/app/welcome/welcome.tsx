@@ -123,7 +123,7 @@ export function Welcome() {
             className="text-sm text-secondary font-bold flex items-center"
           >
             Voir toutes nos actions{" "}
-            <span className="icon-[tabler--arrow-right] collapse-open:hidden size-4"></span>
+            <span className="icon-[tabler--arrow-right] size-4"></span>
           </Link>
         </div>
 
@@ -162,7 +162,7 @@ export function Welcome() {
                 <Link to="/payment" className="btn btn-primary">
                   Donner maintenant
                 </Link>
-                <span className="icon-[tabler--heart] collapse-open:hidden size-6"></span>
+                <span className="icon-[tabler--heart] size-6"></span>
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@ export function Welcome() {
           </h1>
           <Link to={""} className="btn btn-primary">
             Voir toutes notre equipe{" "}
-            <span className="icon-[tabler--arrow-right] collapse-open:hidden size-4"></span>
+            <span className="icon-[tabler--arrow-right] size-4"></span>
           </Link>
         </div>
 
@@ -225,7 +225,7 @@ export function Welcome() {
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
                   <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
                     <p className="text-secondary">Vice-President</p>
                   </div>
                 </div>
@@ -235,7 +235,7 @@ export function Welcome() {
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
                   <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
                     <p className="text-secondary">Vice-President</p>
                   </div>
                 </div>
@@ -245,7 +245,7 @@ export function Welcome() {
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
                   <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
                     <p className="text-secondary">Vice-President</p>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ export function Welcome() {
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
                   <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
                     <p className="text-secondary">Vice-President</p>
                   </div>
                 </div>
@@ -265,7 +265,7 @@ export function Welcome() {
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
                   <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
                     <p className="text-secondary">Vice-President</p>
                   </div>
                 </div>
@@ -275,7 +275,7 @@ export function Welcome() {
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
                   <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
                     <p className="text-secondary">Vice-President</p>
                   </div>
                 </div>
@@ -285,6 +285,59 @@ export function Welcome() {
           <div className="carousel-pagination absolute bottom-3 end-10 start-0 flex justify-end gap-3"></div>
          
         </div>
+      </div>
+      <div className={`flex flex-wrap p-10 bg-gray-500 mb-0 lg:p-20 mt-10 gap-5 lg:mt-20 w-full overflow-x-hidden`} >
+         
+        <div className="flex flex-col bg-black text-white py-24 px-12 flex-1">
+          <span className="text-5xl font-extrabold text-white">01</span>
+          <h2 className="text-3xl text-secondary my-3">Rendre autonome</h2>
+          <p className="font-light text-lg ">Nos programmes visent à répondre aux besoins de première
+             nécessité tels que l’accès à l’eau potable, la sécurité alimentaire, la santé, l’éducation et l’emploi. Nous adoptons une approche globale qui aborde ces besoins de manière interconnectée, afin de garantir des résultats durables.</p>
+        </div>
+
+        <div className="flex flex-col bg-primary text-white py-24 px-12 flex-1">
+          <span className="text-5xl font-extrabold text-white">02</span>
+          <h2 className="text-3xl text-secondary my-3">Zones reculées</h2>
+          <p className="font-light text-lg ">Les zones reculées sont souvent les plus touchées par la pauvreté, les maladies, le manque d’accès à l’eau potable, à l’éducation et à d’autres besoins fondamentaux. Les populations vivant dans ces régions sont confrontées à des défis majeurs qui entravent leur développement et leur bien-être.</p>
+        </div>
+
+        <div className="flex flex-col bg-secondary text-white py-24 px-12 flex-1">
+          <span className="text-5xl font-extrabold text-white">03</span>
+          <h2 className="text-3xl text-primary my-3">Suivi</h2>
+          <p className="font-light text-lg ">Nous réalisons des évaluations régulières pour mesurer l’impact de nos actions et identifier les domaines qui nécessitent des ajustements ou des améliorations. Ces évaluations nous permettent de recueillir des données objectives sur les progrès réalisés, les défis rencontrés et les leçons apprises. Nous utilisons ces informations pour orienter nos futures interventions et maximiser notre efficacité.</p>
+        </div>
+
+      </div>
+
+      <div className="flex flex-wrap bg-primary justify-between text-white p-10 lg:my-20 w-full overflow-x-hidden">
+        <div className="flex">
+        <span className="icon-[tabler--phone] size-8"></span>
+        <div className="flex flex-col mx-2 gap-2.5">
+          <h1 className="text-xl lg:text-3xl font-extralight">Contactez nous! +223 66 99 600 550</h1>
+          <p className="font-extralight mb-5 lg:mb-0"> Association basée à Montauban (82000) </p>
+        </div>
+        </div>
+       
+
+        <div className="flex flex-col gap-2.5 items-end">
+          <span className="font-extralight"> Suivez nous</span>
+          <div className="flex h-5 gap-4 text-white">
+            <a href="#" className="link text-white" aria-label="Github Link">
+              <span className="icon-[tabler--brand-facebook] size-5"></span>
+            </a>
+            <a href="#" className="link text-white" aria-label="Facebook Link">
+              <span className="icon-[tabler--brand-linkedin] size-5"></span>
+            </a>
+            <a href="#" className="link text-white" aria-label="X Link">
+              <span className="icon-[tabler--brand-youtube] size-5"></span>
+            </a>
+            <a href="#" className="link text-white" aria-label="Google Link">
+              <span className="icon-[tabler--brand-instagram] size-5"></span>
+            </a>
+          </div>
+        </div>
+        
+
       </div>
     </>
   );
