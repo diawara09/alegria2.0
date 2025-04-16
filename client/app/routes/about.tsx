@@ -99,7 +99,7 @@ export default function About(){
         </div>
     </div>
     <div className="flex flex-col  justify-center items-center gap-10 p-10 lg:p-20 overflow-x-hidden">
-        <h1 className="text-3xl lg:text-5xl">Vous souhaitez rejoindre notre équipe ?</h1>
+        <h1 className="text-3xl lg:text-5xl text-center">Vous souhaitez rejoindre notre équipe ?</h1>
         <p className="border-2 p-5 text-center">“L’engagement est ce qui transforme une promesse en réalité.”</p>
         <Link to={"#"} className="btn btn-primary">Devenir Benevole</Link>
 
