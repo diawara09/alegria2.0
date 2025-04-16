@@ -1,5 +1,6 @@
 import banner1 from "../Images/03.jpeg";
 import banner2 from "../Images/02.jpeg";
+import teamBoss from "../Images/boss.jpeg"
 import { Link } from "react-router";
 
 export function Welcome() {
@@ -7,7 +8,7 @@ export function Welcome() {
     <>
       <div
         id="auto-play"
-        data-carousel='{ "loadingClassNamees": "opacity-0", "isAutoPlay": true, "speed": 10000,"dotsItemClasses": "carousel-dot carousel-active:bg-primary" }'
+        data-carousel='{ "loadingClassNameNamees": "opacity-0", "isAutoPlay": true, "speed": 10000,"dotsItemClassNamees": "carousel-dot carousel-active:bg-primary" }'
         className="relative w-full"
       >
         <div className="carousel max-h-svh">
@@ -129,21 +130,160 @@ export function Welcome() {
         <div className="p-10 flex flex-wrap gap-2.5 items-center">
           <div className="flex flex-col  min-w-xs max-w-sm grow-0">
             <img src={banner1} className="w-full" />
-            <span className="text-primary font-bold text-lg">Action Title</span>
+            <span className="text-primary font-bold text-lg">
+              Action Title
+            </span>
             <div className="my-2 flex flex-col">
               <span className="text-gray-600 font-bold">$1,320.00</span>
-              <div className="progress h-2.5 w-full" role="progressbar" aria-label="75% Progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div
+                className="progress h-2.5 w-full"
+                role="progressbar"
+                aria-label="75% Progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
                 <div className="progress-bar progress-primary w-3/4"></div>
               </div>
-              <div className="flex justify-between"><span className="text-black font-bold">75% de dons</span>  <span className="text-gray-600 font-bold">Objectif: $1,320.00</span></div>
-              <p className="my-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illum impedit velit sunt debitis numquam fuga quibusdam! Asperiores, 
-                ratione hic blanditiis eveniet unde excepturi consectetur! </p>
+              <div className="flex justify-between">
+                <span className="text-black font-bold">75% de dons</span>{" "}
+                <span className="text-gray-600 font-bold">
+                  Objectif: $1,320.00
+                </span>
+              </div>
+              <p className="my-2">
+                {" "}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, illum impedit velit sunt debitis numquam fuga
+                quibusdam! Asperiores, ratione hic blanditiis eveniet unde
+                excepturi consectetur!{" "}
+              </p>
               <div className="flex my-3 justify-between items-center">
-                <Link to="/payment" className="btn btn-primary">Donner maintenant</Link>
+                <Link to="/payment" className="btn btn-primary">
+                  Donner maintenant
+                </Link>
                 <span className="icon-[tabler--heart] collapse-open:hidden size-6"></span>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="flex flex-wrap  my-10 lg:my-20 w-full overflow-x-hidden">
+        <img src={banner1} className="min-w-xs flex-1 lg:min-w-1/2" />
+        <div className="flex flex-col p-10 lg:p-20 flex-1 bg-black text-white min-w-xs lg:min-w-md shrink-0">
+          <span className="text-secondary">Notre histoire</span>
+          <h1 className="my-5 text-3xl lg:text-5xl font-light">
+            Pourquoi nous?
+          </h1>
+          <p>
+            Notre association est fondée sur la conviction profonde que chaque
+            individu a le droit de vivre dans la dignité et de subvenir à ses
+            besoins les plus fondamentaux. Nous croyons en l’importance de
+            donner aux communautés les outils nécessaires pour prendre leur
+            destin en main et se développer de manière autonome.
+          </p>
+        </div>
+        <div className="flex flex-col p-10 lg:p-20 bg-primary flex-1 text-white min-w-xs lg:min-w-md shrink-0">
+          <span className="text-secondary">Faire un don</span>
+          <h1 className="my-5 text-3xl lg:text-5xl font-light">
+            Pourquoi à ALEGRIA ?
+          </h1>
+          <p>
+            Chez ALEGRIA, nous croyons fermement que chaque don compte et qu’il
+            peut faire une réelle différence dans la vie des populations
+            reculées en Afrique. En choisissant de faire un don par
+            l’intermédiaire de notre association, vous optez pour une approche
+            unique et significative de l’aide humanitaire.
+          </p>
+        </div>
+        <img
+          src={banner2}
+          className="min-w-xs hidden lg:flex flex-1 lg:min-w-1/2"
+        />
+      </div>
+
+      <div className="flex flex-col my-10 lg:my-20 w-full overflow-x-hidden">
+        <div className="flex flex-wrap w-full p-10 items-center justify-between">
+          <h1 className="text-2xl lg:text-4xl font-extrabold min-w-xs">
+            Notre Equipe
+          </h1>
+          <Link to={""} className="btn btn-primary">
+            Voir toutes notre equipe{" "}
+            <span className="icon-[tabler--arrow-right] collapse-open:hidden size-4"></span>
+          </Link>
+        </div>
+
+        <div
+          id="multi-slide"
+          data-carousel='{ "loadingClassNamees": "opacity-0","isAutoPlay": true, "speed": 3000 , "slidesQty": { "xs": 1, "lg": 5 },"dotsItemClasses": "carousel-dot carousel-active:bg-primary" }'
+          className="relative w-full"
+        >
+          <div className="carousel">
+            <div className="carousel-body  h-full opacity-0">
+              <div className="carousel-slide">
+                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
+                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
+                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <p className="text-secondary">Vice-President</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-slide">
+                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
+                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
+                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <p className="text-secondary">Vice-President</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-slide">
+                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
+                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
+                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <p className="text-secondary">Vice-President</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-slide">
+                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
+                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
+                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <p className="text-secondary">Vice-President</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-slide">
+                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
+                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
+                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <p className="text-secondary">Vice-President</p>
+                  </div>
+                </div>
+              </div>
+             
+              <div className="carousel-slide">
+                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
+                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
+                    <h3 className="text-lg text-white font-bold">Michael Lanjard</h3>
+                    <p className="text-secondary">Vice-President</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-pagination absolute bottom-3 end-10 start-0 flex justify-end gap-3"></div>
+         
         </div>
       </div>
     </>
