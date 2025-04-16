@@ -8,9 +8,9 @@ export default function Navbar(){
         <div className="w-full md:flex md:items-center md:gap-2">
           <div className="flex items-center justify-between">
             <div className="navbar-start items-center justify-between max-md:w-full">
-              <a className="link text-base-content link-neutral text-xl font-bold no-underline" href="#">
+              <Link className="link text-base-content link-neutral text-xl font-bold no-underline" to="/">
                 <img src={logo} className="max-w-32" />
-              </a>
+              </Link>
               <div className="md:hidden">
                 <button type="button" className="collapse-toggle btn btn-outline btn-secondary btn-sm btn-square" data-collapse="#navbar-collapse" aria-controls="navbar-collapse" aria-label="Toggle navigation" >
                   <span className="icon-[tabler--menu-2] collapse-open:hidden size-6"></span>
@@ -21,7 +21,7 @@ export default function Navbar(){
           </div>
           <div id="navbar-collapse" className="md:navbar-end collapse hidden grow basis-full overflow-hidden transition-[height] duration-300 max-md:w-full" >
             <ul className="menu md:menu-horizontal gap-2 p-0 text-base max-md:mt-2">
-              <li><a href="#">Accueil</a></li>
+              <li><Link to="/">Accueil</Link></li>
               <li className="dropdown relative inline-flex [--auto-close:inside] [--offset:8] [--placement:bottom-end]">
                 <button id="dropdown-link" type="button" className="dropdown-toggle dropdown-open:bg-base-content/10 dropdown-open:text-base-content" aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown" >
                  Nous Decouvrir
