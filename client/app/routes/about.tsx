@@ -111,7 +111,7 @@ export default function About(){
             <Link className="btn btn-primary" to={"#"}>Donner Maintenant</Link>
         </div>
 
-        <div className="bg-primary flex flex-col text-white min-w-xs p-10 flex-1">
+        <div className="bg-primary flex flex-col text-white min-w-60 p-10 flex-1">
             <h1 className="text-3xl font-bold">Soutenir</h1>
             <p className="my-3">Grâce au parrainage, accompagnez un enfant dans sa vie pour lui permettre l’accès à une alimentation juste, un accès aux soins, à l’éducation jusqu’au monde du travail.</p>
             <Link className="btn btn-secondary" to={"#"}>Prochainement</Link>
