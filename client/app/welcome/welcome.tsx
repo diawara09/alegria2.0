@@ -78,7 +78,7 @@ export function Welcome() {
         </div>
       </div>
       <div className="flex flex-wrap">
-        <div className="flex flex-col bg-primary p-12 lg:p-24 min-w-xs flex-1 text-white">
+        <div className="flex flex-col bg-primary p-12 lg:p-24 min-w-60 flex-1 text-white">
           <span className="text-3xl my-3">
             "L'education est l'arme la plus puissante pour changer le monde."
           </span>
@@ -87,7 +87,7 @@ export function Welcome() {
             <span className="icon-[tabler--heart] size-4"></span>
           </Link>
         </div>
-        <div className="flex flex-col bg-black flex-1 p-12 lg:p-24 min-w-xs text-white">
+        <div className="flex flex-col bg-black flex-1 p-12 lg:p-24 min-w-60 text-white">
           <span className="text-3xl my-3">
             "L'education est l'arme la plus puissante pour changer le monde."
           </span>
@@ -96,11 +96,11 @@ export function Welcome() {
             <span className="icon-[tabler--user-circle] size-4"></span>
           </Link>
         </div>
-        <img src={banner1} className="hidden lg:block flex-2 min-w-xs" />
+        <img src={banner1} className="hidden lg:block flex-2 min-w-60" />
       </div>
 
       <div className="flex flex-wrap my-10 lg:my-20 w-full overflow-x-hidden">
-        <img src={banner2} className="min-w-xs flex-1" />
+        <img src={banner2} className="min-w-60 flex-1" />
         <div className="flex-2 p-10 lg:p-20 text-white font-bold bg-primary min-w-sm">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
@@ -115,7 +115,7 @@ export function Welcome() {
 
       <div className="flex flex-col my-10 lg:my-20 w-full overflow-x-hidden">
         <div className="flex flex-wrap w-full p-10 items-center justify-between">
-          <h1 className="text-2xl lg:text-4xl font-extrabold min-w-xs">
+          <h1 className="text-2xl lg:text-4xl font-extrabold min-w-60">
             Nos actions
           </h1>
           <Link
@@ -128,7 +128,7 @@ export function Welcome() {
         </div>
 
         <div className="p-10 flex flex-wrap gap-2.5 items-center">
-          <div className="flex flex-col  min-w-xs max-w-sm grow-0">
+          <div className="flex flex-col  min-w-60 max-w-sm grow-0">
             <img src={banner1} className="w-full" />
             <span className="text-primary font-bold text-lg">
               Action Title
@@ -170,8 +170,8 @@ export function Welcome() {
       </div>
 
       <div className="flex flex-wrap  my-10 lg:my-20 w-full overflow-x-hidden">
-        <img src={banner1} className="min-w-xs flex-1 lg:min-w-1/2" />
-        <div className="flex flex-col p-10 lg:p-20 flex-1 bg-black text-white min-w-xs lg:min-w-md shrink-0">
+        <img src={banner1} className="min-w-60 flex-1 lg:min-w-1/2" />
+        <div className="flex flex-col p-10 lg:p-20 flex-1 bg-black text-white min-w-60 lg:min-w-md shrink-0">
           <span className="text-secondary">Notre histoire</span>
           <h1 className="my-5 text-3xl lg:text-5xl font-light">
             Pourquoi nous?
@@ -184,7 +184,7 @@ export function Welcome() {
             destin en main et se développer de manière autonome.
           </p>
         </div>
-        <div className="flex flex-col p-10 lg:p-20 bg-primary flex-1 text-white min-w-xs lg:min-w-md shrink-0">
+        <div className="flex flex-col p-10 lg:p-20 bg-primary flex-1 text-white min-w-60 lg:min-w-md shrink-0">
           <span className="text-secondary">Faire un don</span>
           <h1 className="my-5 text-3xl lg:text-5xl font-light">
             Pourquoi à ALEGRIA ?
@@ -199,13 +199,13 @@ export function Welcome() {
         </div>
         <img
           src={banner2}
-          className="min-w-xs hidden lg:flex flex-1 lg:min-w-1/2"
+          className="min-w-60 hidden lg:flex flex-1 lg:min-w-1/2"
         />
       </div>
 
       <div className="flex flex-col my-10 lg:my-20 w-full overflow-x-hidden">
         <div className="flex flex-wrap w-full p-10 items-center justify-between">
-          <h1 className="text-2xl lg:text-4xl font-extrabold min-w-xs">
+          <h1 className="text-2xl lg:text-4xl font-extrabold min-w-60">
             Notre Equipe
           </h1>
           <Link to={""} className="btn btn-primary">
