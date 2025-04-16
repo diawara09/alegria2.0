@@ -55,6 +55,21 @@ export function Welcome() {
     </div>
     <img src={banner1} className='hidden lg:block flex-2 min-w-xs' />
   </div>
+
+  <div className='flex flex-wrap my-10 lg:my-20 w-full overflow-x-hidden'>
+    <img src={banner2} className='min-w-xs flex-1' />
+    <div className='flex-2 p-10 lg:p-20 text-white font-bold bg-primary min-w-sm'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laudantium commodi aliquam animi! Iusto officia corrupti repellat, nam iure 
+      provident! Sit ullam ipsum eligendi voluptatibus accusantium dicta cumque corrupti qui deleniti cupiditate? 
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore suscipit sapiente soluta laudantium ullam eius odio praesentium? Consequatur hic soluta veniam exercitationem et accusantium quos!
+      </div>
+  </div>
+
+  <div className='flex flex-col my-10 lg:my-20 w-full overflow-x-hidden'>
+     <div className='flex flex-wrap w-full p-10 items-center justify-between'>
+      <h1 className='text-2xl lg:text-4xl font-extrabold min-w-xs'>Nos actions</h1>
+      <Link to={""} className='text-sm text-secondary font-bold flex items-center'>Voir toutes nos actions  <span className="icon-[tabler--arrow-right] collapse-open:hidden size-4"></span></Link>
+     </div>
+  </div>
   </>
   )
 }
