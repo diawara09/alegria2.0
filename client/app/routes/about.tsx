@@ -46,7 +46,7 @@ export default function About(){
             <p className="font-extrabold uppercase text-white text-ld">Story About Us</p>
         </div>
     </div>
-    <div className="flex flex-wrap items-center  gap-5 p-10 lg:p-20 overflow-x-hidden">
+    <div className="flex flex-wrap items-center  gap-5 p-10 lg:p-20 overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="flex flex-col min-w-60 lg:min-w-sm lg:max-w-1/2">
             <span className="text-secondary uppercase font-light">ALEFRIA - HELP FOR EDUCATION AND VILLAGERS IN AFRICA</span>
             <h3 className="font-bold text-lg lg:text-2xl my-3">Nous découvrir</h3>
@@ -58,7 +58,7 @@ export default function About(){
         <iframe className="min-w-60 lg:min-w-sm min-h-72" src="https://www.youtube.com/embed/e1IUuncr71E?si=l_xEi9yhSCkwCzmC" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
     </div>
-    <div className="flex flex-wrap items-center -mt-10 gap-5 p-10 lg:p-20 overflow-x-hidden">
+    <div className="flex flex-wrap items-center -mt-10 gap-5 p-10 lg:p-20 overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="flex flex-col min-w-60 flex-1 p-10">
             <img className="max-w-24" src={independence} />
             <h1 className="text-2xl font-bold my-3">Independence</h1>
@@ -80,7 +80,7 @@ export default function About(){
         </div>
     </div>
 
-    <div className="flex flex-wrap bg-primary items-center gap-5 p-10 lg:p-20 overflow-x-hidden">
+    <div className="flex flex-wrap bg-primary items-center gap-5 p-10 lg:p-20 overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="min-w-60 lg:min-w-sm flex-1 flex flex-col text-white">
             <span className="uppercase text-secondary">Transparence</span>
             <h1 className="text-2xl lg:text-4xl my-3">Comment sont utilisés les dons ?</h1>
@@ -98,13 +98,13 @@ export default function About(){
     </Suspense>
         </div>
     </div>
-    <div className="flex flex-col  justify-center items-center gap-10 p-10 lg:p-20 overflow-x-hidden">
+    <div className="flex flex-col  justify-center items-center gap-10 p-10 lg:p-20 overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <h1 className="text-3xl lg:text-5xl text-center">Vous souhaitez rejoindre notre équipe ?</h1>
         <p className="border-2 p-5 text-center">“L’engagement est ce qui transforme une promesse en réalité.”</p>
         <Link to={"#"} className="btn btn-primary">Devenir Benevole</Link>
 
     </div>
-    <div className="flex flex-wrap px-10 justify-around overflow-x-hidden">
+    <div className="flex flex-wrap px-10 justify-around overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="bg-black flex flex-col text-white min-w-60 p-10 flex-1">
             <h1 className="text-3xl font-bold">Donner</h1>
             <p className="my-3">En donnant à ALEGRIA, nous assurons que 100% de votre don est reversé pour les missions en cours.</p>

@@ -21,48 +21,50 @@ export default function Team() {
         </div>
 
         <div className="flex flex-wrap gap-5">
-            <div className="flex flex-col min-w-60 max-w-sm shadow-sm">
+            <div className="flex intersect:motion-preset-slide-up motion-duration-2000 flex-col min-w-60 max-w-sm shadow-sm">
                 <img src={boss} className="w-full"  />
                 <div className="flex flex-col items-center gap-2.5 p-5 bg-white text-black">
                     <h3 className="text-3xl">Micheal Lanjard</h3>
                     <p className="text-secondary">President</p>
                 </div>
             </div>
-            <div className="flex flex-col min-w-60 max-w-sm shadow-sm">
+            <div className="flex intersect:motion-preset-slide-up motion-duration-2000 flex-col min-w-60 max-w-sm shadow-sm">
                 <img src={boss} className="w-full"  />
                 <div className="flex flex-col items-center gap-2.5 p-5 bg-white text-black">
                     <h3 className="text-3xl">Micheal Lanjard</h3>
                     <p className="text-secondary">President</p>
                 </div>
             </div>
-            <div className="flex flex-col min-w-60 max-w-sm shadow-sm">
+            <div className="flex  intersect:motion-preset-slide-up motion-duration-2000 flex-col min-w-60 max-w-sm shadow-sm">
                 <img src={boss} className="w-full"  />
                 <div className="flex flex-col items-center gap-2.5 p-5 bg-white text-black">
                     <h3 className="text-3xl">Micheal Lanjard</h3>
                     <p className="text-secondary">President</p>
                 </div>
             </div>
-            <div className="flex flex-col min-w-60 max-w-sm shadow-sm">
+            <div className="flex  intersect:motion-preset-slide-up motion-duration-2000 flex-col min-w-60 max-w-sm shadow-sm">
                 <img src={boss} className="w-full"  />
                 <div className="flex flex-col items-center gap-2.5 p-5 bg-white text-black">
                     <h3 className="text-3xl">Micheal Lanjard</h3>
                     <p className="text-secondary">President</p>
                 </div>
             </div>
-            <div className="flex flex-col min-w-60 max-w-sm shadow-sm">
+            <div className="flex  intersect:motion-preset-slide-up motion-duration-2000 flex-col min-w-60 max-w-sm shadow-sm">
                 <img src={boss} className="w-full"  />
                 <div className="flex flex-col items-center gap-2.5 p-5 bg-white text-black">
                     <h3 className="text-3xl">Micheal Lanjard</h3>
                     <p className="text-secondary">President</p>
                 </div>
             </div>
-            <div className="flex flex-col min-w-60 max-w-sm shadow-sm">
+            <div className="flex intersect:motion-preset-slide-up motion-duration-2000 flex-col min-w-60 max-w-sm shadow-sm">
                 <img src={boss} className="w-full"  />
                 <div className="flex flex-col items-center gap-2.5 p-5 bg-white text-black">
                     <h3 className="text-3xl">Micheal Lanjard</h3>
                     <p className="text-secondary">President</p>
                 </div>
             </div>
+           
+            
            
         </div>
       </div>

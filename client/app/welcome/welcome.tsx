@@ -78,7 +78,7 @@ export function Welcome() {
         </div>
       </div>
       <div className="flex flex-wrap">
-        <div className="flex flex-col bg-primary p-12 lg:p-24 min-w-60 flex-1 text-white">
+        <div className="flex flex-col bg-primary p-12 lg:p-24 min-w-60 flex-1 text-white intersect:motion-preset-slide-up motion-duration-2000">
           <span className="text-3xl my-3">
             "L'education est l'arme la plus puissante pour changer le monde."
           </span>
@@ -87,7 +87,7 @@ export function Welcome() {
             <span className="icon-[tabler--heart] size-4"></span>
           </Link>
         </div>
-        <div className="flex flex-col bg-black flex-1 p-12 lg:p-24 min-w-60 text-white">
+        <div className="flex flex-col bg-black flex-1 p-12 lg:p-24 min-w-60 text-white intersect:motion-preset-slide-up motion-duration-2000">
           <span className="text-3xl my-3">
             "L'education est l'arme la plus puissante pour changer le monde."
           </span>
@@ -99,7 +99,7 @@ export function Welcome() {
         <img src={banner1} className="hidden lg:block flex-2 min-w-60" />
       </div>
 
-      <div className="flex flex-wrap my-10 lg:my-20 w-full overflow-x-hidden">
+      <div className="flex flex-wrap my-10 lg:my-20 w-full overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <img src={banner2} className="min-w-60 flex-1" />
         <div className="flex-2 p-10 lg:p-20 text-white font-bold bg-primary min-w-sm">
           {" "}
@@ -113,7 +113,7 @@ export function Welcome() {
         </div>
       </div>
 
-      <div className="flex flex-col my-10 lg:my-20 w-full overflow-x-hidden">
+      <div className="flex flex-col my-10 lg:my-20 w-full overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="flex flex-wrap w-full p-10 items-center justify-between">
           <h1 className="text-2xl lg:text-4xl font-extrabold min-w-60">
             Nos actions
@@ -169,7 +169,7 @@ export function Welcome() {
         </div>
       </div>
 
-      <div className="flex flex-wrap  my-10 lg:my-20 w-full overflow-x-hidden">
+      <div className="flex flex-wrap  my-10 lg:my-20 w-full overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <img src={banner1} className="min-w-60 flex-1 lg:min-w-1/2" />
         <div className="flex flex-col p-10 lg:p-20 flex-1 bg-black text-white min-w-60 lg:min-w-md shrink-0">
           <span className="text-secondary">Notre histoire</span>
@@ -203,7 +203,7 @@ export function Welcome() {
         />
       </div>
 
-      <div className="flex flex-col my-10 lg:my-20 w-full overflow-x-hidden">
+      <div className="flex flex-col my-10 lg:my-20 w-full overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="flex flex-wrap w-full p-10 items-center justify-between">
           <h1 className="text-2xl lg:text-4xl font-extrabold min-w-60">
             Notre Equipe
@@ -286,7 +286,7 @@ export function Welcome() {
          
         </div>
       </div>
-      <div className={`flex flex-wrap p-10 bg-gray-500 mb-0 lg:p-20 mt-10 gap-5 lg:mt-20 w-full overflow-x-hidden`} >
+      <div className={`flex flex-wrap p-10 bg-gray-500 mb-0 lg:p-20 mt-10 gap-5 lg:mt-20 w-full overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000`} >
          
         <div className="flex flex-col bg-black text-white py-24 px-12 flex-1">
           <span className="text-5xl font-extrabold text-white">01</span>
@@ -309,7 +309,7 @@ export function Welcome() {
 
       </div>
 
-      <div className="flex flex-wrap bg-primary justify-between text-white p-10 lg:my-20 w-full overflow-x-hidden">
+      <div className="flex flex-wrap bg-primary justify-between text-white p-10 lg:my-20 w-full overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="flex">
         <span className="icon-[tabler--phone] size-8"></span>
         <div className="flex flex-col mx-2 gap-2.5">
