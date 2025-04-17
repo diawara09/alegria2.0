@@ -38,7 +38,7 @@ export default function Payment(){
         : ''
     })
     return(<div className="w-full flex m-5 p-5 justify-center items-center">
-        <fetcher.Form method="post" className="card rounded-none lg:min-w-96 sm:max-w-sm">
+        <fetcher.Form method="post" className="card rounded-none lg:min-w-96 sm:max-w-60 intersect:motion-preset-slide-up motion-duration-2000">
           <div className="card-body">
             <h5 className="card-title mb-0">Faire une donation</h5>
             <div className="text-base-content/50 mb-6">

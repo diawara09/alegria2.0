@@ -16,25 +16,25 @@ export default function Contact() {
       </div>
 
       <div className="flex flex-col lg:flex-row p-10 gap-10 justify-between bg-black text-white lg:p-20">
-        <div className="flex flex-col gap-10 min-w-60">
+        <div className="flex flex-col gap-10 min-w-60 intersect:motion-preset-slide-up motion-duration-2000">
           <span className="icon-[tabler--phone] size-14"></span>
           <h1 className="text-2xl lg:text-4xl">Telephone</h1>
           <p>+223 77 00 45 45</p>
         </div>
-        <div className="flex flex-col gap-10 min-w-60">
+        <div className="flex flex-col gap-10 min-w-60 intersect:motion-preset-slide-up motion-duration-2000">
           <span className="icon-[tabler--mail] size-14"></span>
           <h1 className="text-2xl lg:text-4xl">Email</h1>
           <p>test@example.com</p>
         </div>
 
-        <div className="flex flex-col gap-10 min-w-60">
+        <div className="flex flex-col gap-10 min-w-60 intersect:motion-preset-slide-up motion-duration-2000">
           <span className="icon-[tabler--send] size-14"></span>
           <h1 className="text-2xl lg:text-4xl">Location</h1>
           <p>Bamako, Mali</p>
         </div>
       </div>
 
-      <div className="flex flex-col gap-10 justify-center p-10 lg:p-20 overflow-x-hidden">
+      <div className="flex flex-col gap-10 justify-center p-10 lg:p-20 overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="flex flex-col text-center">
           <h1 className="text-4xl text-black font-bold">Ecrivez un mot</h1>
           <p>Nous reviendrons vers vous</p>
