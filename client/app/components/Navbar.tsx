@@ -32,7 +32,7 @@ export default function Navbar(){
                   <li><a className="dropdown-item" href="#">Notre Equipe</a></li>
                 </ul>
               </li>
-              <li><a href="#">Contact</a></li>
+              <li><Link to="/contact">Contact</Link></li>
               <li><Link to="/payment" className="btn btn-primary"> Faire un don </Link></li>
               <li><a href="#" className="btn btn-secondary"> Devenir Benevole </a></li>
             </ul>
