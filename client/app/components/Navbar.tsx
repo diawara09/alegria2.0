@@ -29,7 +29,7 @@ export default function Navbar(){
                 </button>
                 <ul className="dropdown-menu dropdown-open:opacity-100 hidden" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-link" >
                 <li><Link className="dropdown-item" to="/about">A Propos de Nous</Link></li>
-                  <li><a className="dropdown-item" href="#">Notre Equipe</a></li>
+                  <li><Link className="dropdown-item" to="/team">Notre Equipe</Link></li>
                 </ul>
               </li>
               <li><Link to="/contact">Contact</Link></li>
