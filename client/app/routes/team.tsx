@@ -1,6 +1,6 @@
 import banner2 from "../Images/04.jpeg";
 import boss from "../Images/boss.jpeg";
-import segal from "../images/segal.jpeg";
+import segal from "../Images/segal.jpeg";
 export default function Team() {
   return (
     <>

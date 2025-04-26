@@ -1,7 +1,7 @@
 import banner1 from "../Images/03.jpeg";
 import banner2 from "../Images/02.jpeg";
 import teamBoss from "../Images/boss.jpeg"
-import segal from "../images/segal.jpeg"
+import segal from "../Images/segal.jpeg"
 import { Link } from "react-router";
 
 export function Welcome() {
