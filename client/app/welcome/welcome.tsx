@@ -1,6 +1,7 @@
 import banner1 from "../Images/03.jpeg";
 import banner2 from "../Images/02.jpeg";
 import teamBoss from "../Images/boss.jpeg"
+import segal from "../images/segal.jpeg"
 import { Link } from "react-router";
 
 export function Welcome() {
@@ -206,18 +207,18 @@ export function Welcome() {
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
                   <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
-                    <p className="text-secondary">Vice-President</p>
+                    <h3 className="text-xl text-white font-bold">Adama Samake</h3>
+                    <p className="text-secondary">Présidente</p>
                   </div>
                 </div>
               </div>
 
               <div className="carousel-slide">
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
-                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <img src={segal} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
-                    <p className="text-secondary">Vice-President</p>
+                    <h3 className="text-xl text-white font-bold">Assetou Diakite</h3>
+                    <p className="text-secondary">Secrétaire Général</p>
                   </div>
                 </div>
               </div>
