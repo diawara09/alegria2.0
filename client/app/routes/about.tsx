@@ -48,10 +48,9 @@ export default function About(){
     </div>
     <div className="flex flex-wrap items-center  gap-5 p-10 lg:p-20 overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="flex flex-col min-w-60 lg:min-w-sm lg:max-w-1/2">
-            <span className="text-secondary uppercase font-light">ALEFRIA - HELP FOR EDUCATION AND VILLAGERS IN AFRICA</span>
+            <span className="text-secondary uppercase font-light">ALEFRIA</span>
             <h3 className="font-bold text-lg lg:text-2xl my-3">Nous découvrir</h3>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium omnis quas eius alias 
-                repudiandae eligendi voluptas sed. Pariatur rem tempore nam minima, in sunt? </p>
+            <p>Notre association œuvre activement au Mali dans plusieurs domaines essentiels visant à améliorer les conditions de vie des populations vulnérables. Elle se concentre principalement sur trois axes d’intervention : l’éducation, la santé et l’humanitaire.</p>
                 <button className="btn btn-primary my-3">Voir la video</button>
         </div>
         <div>
@@ -61,21 +60,18 @@ export default function About(){
     <div className="flex flex-wrap items-center -mt-10 gap-5 p-10 lg:p-20 overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="flex flex-col min-w-60 flex-1 p-10">
             <img className="max-w-24" src={independence} />
-            <h1 className="text-2xl font-bold my-3">Independence</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti qui consequuntur repellat placeat rerum? Tempore, inventore nemo cumque, ullam nam sint quisquam nisi, fuga tenetur quia quo doloremque quas sequi quam? 
-                Incidunt quidem quibusdam optio iste quae totam? Sed, quis voluptas cupiditate nisi quos consectetur!</p>
+            <h1 className="text-2xl font-bold my-3">Éducation et réinsertion socioprofessionnelle</h1>
+            <p>Nous nous engageons dans la réinsertion sociale et professionnelle des enfants de la rue ainsi que des enfants mendiants. Notre objectif est de leur offrir une seconde chance à travers l’éducation et la formation. À cet effet, nous mettons en place des programmes éducatifs adaptés, des activités de sensibilisation, des ateliers de formation professionnelle et un accompagnement psychologique pour faciliter leur réhabilitation dans la société. Nous croyons que chaque enfant mérite un avenir meilleur, loin de la rue et de la mendicité.</p>
         </div>
         <div className="flex flex-col min-w-60 flex-1 p-10">
             <img className="max-w-24" src={autonomy} />
-            <h1 className="text-2xl font-bold my-3">Autonomie</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti qui consequuntur repellat placeat rerum? Tempore, inventore nemo cumque, ullam nam sint quisquam nisi, fuga tenetur quia quo doloremque quas sequi quam? 
-                Incidunt quidem quibusdam optio iste quae totam? Sed, quis voluptas cupiditate nisi quos consectetur!</p>
+            <h1 className="text-2xl font-bold my-3">Santé : un accès aux soins pour tous</h1>
+            <p>L’association soutient les personnes malades démunies qui n’ont pas les moyens de se soigner. Nous facilitons leur accès aux structures sanitaires en prenant en charge les frais médicaux, les médicaments, et en assurant un suivi régulier. Nos actions visent à garantir à chacun le droit fondamental à la santé, en particulier aux plus démunis, souvent oubliés du système.</p>
         </div>
         <div className="flex flex-col min-w-60 flex-1 p-10">
             <img className="max-w-24" src={benvole} />
-            <h1 className="text-2xl font-bold my-3">Benevoles</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti qui consequuntur repellat placeat rerum? Tempore, inventore nemo cumque, ullam nam sint quisquam nisi, fuga tenetur quia quo doloremque quas sequi quam? 
-                Incidunt quidem quibusdam optio iste quae totam? Sed, quis voluptas cupiditate nisi quos consectetur!</p>
+            <h1 className="text-2xl font-bold my-3">Actions humanitaires</h1>
+            <p>Notre action humanitaire s’adresse aux populations en situation de grande précarité. Nous apportons une assistance matérielle et morale aux femmes veuves, aux déplacés internes, aux personnes sinistrées par des catastrophes naturelles ou des conflits, ainsi qu’aux enfants orphelins. À travers des distributions de vivres, de vêtements, de kits d’hygiène et de produits de première nécessité, nous nous efforçons de redonner espoir et dignité à ceux qui traversent des périodes difficiles.</p>
             
         </div>
     </div>
@@ -85,7 +81,7 @@ export default function About(){
             <span className="uppercase text-secondary">Transparence</span>
             <h1 className="text-2xl lg:text-4xl my-3">Comment sont utilisés les dons ?</h1>
             <p>Nous sommes fiers de vous informer que la totalité de votre don est utilisée pour soutenir
-                notre mission humanitaire au Sénégal et dans d’autres régions reculées. Nous nous engageons à utiliser
+                notre mission humanitaire au Mali et dans d’autres régions reculées. Nous nous engageons à utiliser
                 chaque centime de manière responsable et efficace afin de maximiser l’impact de votre générosité. Nous comprenons
                 l’importance de garantir que vos dons sont directement alloués aux initiatives sur le terrain, bénéficiant ainsi aux populations dans le besoin. 
                 Par conséquent, nous maintenons nos frais administratifs aussi bas que possible et veillons à ce que chaque ressource soit utilisée de manière 
@@ -119,7 +115,7 @@ export default function About(){
 
         <div className="bg-black flex flex-col text-white min-w-60 p-10 flex-1">
             <h1 className="text-3xl font-bold">Rejoindre</h1>
-            <p className="my-3">Rejoignez l’aventure HEVA et devenez bénévole !</p>
+            <p className="my-3">Rejoignez l’aventure ALEGRIA et devenez bénévole !</p>
             <Link className="btn btn-primary" to={"#"}>Rejoindre</Link>
         </div>
     </div>

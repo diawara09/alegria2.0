@@ -1,6 +1,7 @@
 import banner1 from "../Images/03.jpeg";
 import banner2 from "../Images/02.jpeg";
 import teamBoss from "../Images/boss.jpeg"
+import segal from "../Images/segal.jpeg"
 import { Link } from "react-router";
 
 export function Welcome() {
@@ -18,13 +19,11 @@ export function Welcome() {
                 <img src={banner1} className="w-full z-0" />
                 <div className="absolute intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 p-5 max-w-1/2 lg:p-10 justify-end top-0 h-full lg:h-screen left-0 z-1 flex flex-col gap-2.5">
                   <span className="bg-secondary intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 text-white font-extrabold text-xl lg:text-5xl motion-delay-[1s] motion-duration-[3s]">
-                    This is a Hero Section
+                    Bienvenue Sur Alegria!
                   </span>
                   <p className="bg-secondary intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 text-white text-sm lg:text-lg motion-delay-[2s] motion-duration-[5s]">
                     {" "}
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Officiis ducimus nisi ea quo sunt aperiam aliquid at dolorum
-                    repudiandae placeat!{" "}
+                    Notre association œuvre activement au Mali dans plusieurs domaines essentiels visant à améliorer les conditions de vie des populations vulnérables. Elle se concentre principalement sur trois axes d’intervention : l’éducation, la santé et l’humanitaire.!{" "}
                   </p>
                   <div className="flex gap-2">
                     <Link
@@ -48,13 +47,11 @@ export function Welcome() {
                 <img src={banner2} className="w-full z-0" />
                 <div className="absolute intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 p-5 max-w-1/2 lg:p-10 justify-end top-0 h-full lg:h-screen left-0 z-1 flex flex-col gap-2.5">
                   <span className="bg-secondary intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 text-white font-extrabold text-xl lg:text-5xl motion-delay-[1s] motion-duration-[3s]">
-                    This is a Hero Section
+                  Actions humanitaires
                   </span>
                   <p className="bg-secondary intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 text-white text-sm lg:text-lg motion-delay-[2s] motion-duration-[5s]">
                     {" "}
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Officiis ducimus nisi ea quo sunt aperiam aliquid at dolorum
-                    repudiandae placeat!{" "}
+                    À travers des distributions de vivres, de vêtements, de kits d’hygiène et de produits de première nécessité, nous nous efforçons de redonner espoir et dignité à ceux qui traversent des périodes difficiles.{" "}
                   </p>
                   <div className="flex gap-2">
                     <Link
@@ -103,13 +100,8 @@ export function Welcome() {
         <img src={banner2} className="min-w-60 flex-1" />
         <div className="flex-2 p-10 lg:p-20 text-white font-bold bg-primary min-w-sm">
           {" "}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-          laudantium commodi aliquam animi! Iusto officia corrupti repellat, nam
-          iure provident! Sit ullam ipsum eligendi voluptatibus accusantium
-          dicta cumque corrupti qui deleniti cupiditate? Lorem ipsum dolor sit,
-          amet consectetur adipisicing elit. Inventore suscipit sapiente soluta
-          laudantium ullam eius odio praesentium? Consequatur hic soluta veniam
-          exercitationem et accusantium quos!
+          L’association soutient les personnes malades démunies qui n’ont pas les moyens de se soigner. Nous facilitons leur accès aux structures sanitaires en prenant en charge les frais médicaux, les médicaments, et en assurant un suivi régulier. Nos actions visent à garantir à chacun le droit fondamental à la santé, en particulier aux plus démunis, souvent oubliés du système.
+
         </div>
       </div>
 
@@ -131,7 +123,7 @@ export function Welcome() {
           <div className="flex flex-col  min-w-60 max-w-sm grow-0">
             <img src={banner1} className="w-full" />
             <span className="text-primary font-bold text-lg">
-              Action Title
+            Actions humanitaires
             </span>
             <div className="my-2 flex flex-col">
               <span className="text-gray-600 font-bold">$1,320.00</span>
@@ -153,10 +145,7 @@ export function Welcome() {
               </div>
               <p className="my-2">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda, illum impedit velit sunt debitis numquam fuga
-                quibusdam! Asperiores, ratione hic blanditiis eveniet unde
-                excepturi consectetur!{" "}
+                Notre action humanitaire s’adresse aux populations en situation de grande précarité. Nous apportons une assistance matérielle et morale aux femmes veuves, aux déplacés internes, aux personnes sinistrées par des catastrophes naturelles ou des conflits, ainsi qu’aux enfants orphelins.{" "}
               </p>
               <div className="flex my-3 justify-between items-center">
                 <Link to="/payment" className="btn btn-primary">
@@ -177,11 +166,7 @@ export function Welcome() {
             Pourquoi nous?
           </h1>
           <p>
-            Notre association est fondée sur la conviction profonde que chaque
-            individu a le droit de vivre dans la dignité et de subvenir à ses
-            besoins les plus fondamentaux. Nous croyons en l’importance de
-            donner aux communautés les outils nécessaires pour prendre leur
-            destin en main et se développer de manière autonome.
+          Notre association œuvre activement au Mali dans plusieurs domaines essentiels visant à améliorer les conditions de vie des populations vulnérables. Elle se concentre principalement sur trois axes d’intervention : l’éducation, la santé et l’humanitaire.
           </p>
         </div>
         <div className="flex flex-col p-10 lg:p-20 bg-primary flex-1 text-white min-w-60 lg:min-w-md shrink-0">
@@ -190,11 +175,8 @@ export function Welcome() {
             Pourquoi à ALEGRIA ?
           </h1>
           <p>
-            Chez ALEGRIA, nous croyons fermement que chaque don compte et qu’il
-            peut faire une réelle différence dans la vie des populations
-            reculées en Afrique. En choisissant de faire un don par
-            l’intermédiaire de notre association, vous optez pour une approche
-            unique et significative de l’aide humanitaire.
+          Nous nous engageons dans la réinsertion sociale et professionnelle des enfants de la rue ainsi que des enfants mendiants. Notre objectif est de leur offrir une seconde chance à travers l’éducation et la formation. À cet effet, nous mettons en place des programmes éducatifs adaptés, des activités de sensibilisation, des ateliers de formation professionnelle et un accompagnement psychologique pour faciliter leur réhabilitation dans la société. Nous croyons que chaque enfant mérite un avenir meilleur, loin de la rue et de la mendicité.
+
           </p>
         </div>
         <img
@@ -225,18 +207,18 @@ export function Welcome() {
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
                   <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
-                    <p className="text-secondary">Vice-President</p>
+                    <h3 className="text-xl text-white font-bold">Adama Samake</h3>
+                    <p className="text-secondary">Présidente</p>
                   </div>
                 </div>
               </div>
 
               <div className="carousel-slide">
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
-                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <img src={segal} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
-                    <p className="text-secondary">Vice-President</p>
+                    <h3 className="text-xl text-white font-bold">Assetou Diakite</h3>
+                    <p className="text-secondary">Secrétaire Général</p>
                   </div>
                 </div>
               </div>
