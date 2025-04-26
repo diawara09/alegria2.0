@@ -1,7 +1,7 @@
 import banner1 from "../Images/03.jpeg";
 import banner2 from "../Images/02.jpeg";
-import teamBoss from "../Images/boss.jpeg"
-import segal from "../Images/segal.jpeg"
+import teamBoss from "../Images/boss.jpeg";
+import segal from "../Images/segal.jpeg";
 import { Link } from "react-router";
 
 export function Welcome() {
@@ -23,7 +23,11 @@ export function Welcome() {
                   </span>
                   <p className="bg-secondary intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 text-white text-sm lg:text-lg motion-delay-[2s] motion-duration-[5s]">
                     {" "}
-                    Notre association œuvre activement au Mali dans plusieurs domaines essentiels visant à améliorer les conditions de vie des populations vulnérables. Elle se concentre principalement sur trois axes d’intervention : l’éducation, la santé et l’humanitaire.!{" "}
+                    Notre association œuvre activement au Mali dans plusieurs
+                    domaines essentiels visant à améliorer les conditions de vie
+                    des populations vulnérables. Elle se concentre
+                    principalement sur trois axes d’intervention : l’éducation,
+                    la santé et l’humanitaire.!{" "}
                   </p>
                   <div className="flex gap-2">
                     <Link
@@ -47,11 +51,14 @@ export function Welcome() {
                 <img src={banner2} className="w-full z-0" />
                 <div className="absolute intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 p-5 max-w-1/2 lg:p-10 justify-end top-0 h-full lg:h-screen left-0 z-1 flex flex-col gap-2.5">
                   <span className="bg-secondary intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 text-white font-extrabold text-xl lg:text-5xl motion-delay-[1s] motion-duration-[3s]">
-                  Actions humanitaires
+                    Actions humanitaires
                   </span>
                   <p className="bg-secondary intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 text-white text-sm lg:text-lg motion-delay-[2s] motion-duration-[5s]">
                     {" "}
-                    À travers des distributions de vivres, de vêtements, de kits d’hygiène et de produits de première nécessité, nous nous efforçons de redonner espoir et dignité à ceux qui traversent des périodes difficiles.{" "}
+                    À travers des distributions de vivres, de vêtements, de kits
+                    d’hygiène et de produits de première nécessité, nous nous
+                    efforçons de redonner espoir et dignité à ceux qui
+                    traversent des périodes difficiles.{" "}
                   </p>
                   <div className="flex gap-2">
                     <Link
@@ -100,8 +107,12 @@ export function Welcome() {
         <img src={banner2} className="min-w-60 flex-1" />
         <div className="flex-2 p-10 lg:p-20 text-white font-bold bg-primary min-w-sm">
           {" "}
-          L’association soutient les personnes malades démunies qui n’ont pas les moyens de se soigner. Nous facilitons leur accès aux structures sanitaires en prenant en charge les frais médicaux, les médicaments, et en assurant un suivi régulier. Nos actions visent à garantir à chacun le droit fondamental à la santé, en particulier aux plus démunis, souvent oubliés du système.
-
+          L’association soutient les personnes malades démunies qui n’ont pas
+          les moyens de se soigner. Nous facilitons leur accès aux structures
+          sanitaires en prenant en charge les frais médicaux, les médicaments,
+          et en assurant un suivi régulier. Nos actions visent à garantir à
+          chacun le droit fondamental à la santé, en particulier aux plus
+          démunis, souvent oubliés du système.
         </div>
       </div>
 
@@ -123,7 +134,7 @@ export function Welcome() {
           <div className="flex flex-col  min-w-60 max-w-sm grow-0">
             <img src={banner1} className="w-full" />
             <span className="text-primary font-bold text-lg">
-            Actions humanitaires
+              Actions humanitaires
             </span>
             <div className="my-2 flex flex-col">
               <span className="text-gray-600 font-bold">$1,320.00</span>
@@ -145,7 +156,11 @@ export function Welcome() {
               </div>
               <p className="my-2">
                 {" "}
-                Notre action humanitaire s’adresse aux populations en situation de grande précarité. Nous apportons une assistance matérielle et morale aux femmes veuves, aux déplacés internes, aux personnes sinistrées par des catastrophes naturelles ou des conflits, ainsi qu’aux enfants orphelins.{" "}
+                Notre action humanitaire s’adresse aux populations en situation
+                de grande précarité. Nous apportons une assistance matérielle et
+                morale aux femmes veuves, aux déplacés internes, aux personnes
+                sinistrées par des catastrophes naturelles ou des conflits,
+                ainsi qu’aux enfants orphelins.{" "}
               </p>
               <div className="flex my-3 justify-between items-center">
                 <Link to="/payment" className="btn btn-primary">
@@ -166,7 +181,10 @@ export function Welcome() {
             Pourquoi nous?
           </h1>
           <p>
-          Notre association œuvre activement au Mali dans plusieurs domaines essentiels visant à améliorer les conditions de vie des populations vulnérables. Elle se concentre principalement sur trois axes d’intervention : l’éducation, la santé et l’humanitaire.
+            Notre association œuvre activement au Mali dans plusieurs domaines
+            essentiels visant à améliorer les conditions de vie des populations
+            vulnérables. Elle se concentre principalement sur trois axes
+            d’intervention : l’éducation, la santé et l’humanitaire.
           </p>
         </div>
         <div className="flex flex-col p-10 lg:p-20 bg-primary flex-1 text-white min-w-60 lg:min-w-md shrink-0">
@@ -175,8 +193,15 @@ export function Welcome() {
             Pourquoi à ALEGRIA ?
           </h1>
           <p>
-          Nous nous engageons dans la réinsertion sociale et professionnelle des enfants de la rue ainsi que des enfants mendiants. Notre objectif est de leur offrir une seconde chance à travers l’éducation et la formation. À cet effet, nous mettons en place des programmes éducatifs adaptés, des activités de sensibilisation, des ateliers de formation professionnelle et un accompagnement psychologique pour faciliter leur réhabilitation dans la société. Nous croyons que chaque enfant mérite un avenir meilleur, loin de la rue et de la mendicité.
-
+            Nous nous engageons dans la réinsertion sociale et professionnelle
+            des enfants de la rue ainsi que des enfants mendiants. Notre
+            objectif est de leur offrir une seconde chance à travers l’éducation
+            et la formation. À cet effet, nous mettons en place des programmes
+            éducatifs adaptés, des activités de sensibilisation, des ateliers de
+            formation professionnelle et un accompagnement psychologique pour
+            faciliter leur réhabilitation dans la société. Nous croyons que
+            chaque enfant mérite un avenir meilleur, loin de la rue et de la
+            mendicité.
           </p>
         </div>
         <img
@@ -205,9 +230,14 @@ export function Welcome() {
             <div className="carousel-body  h-full opacity-0">
               <div className="carousel-slide">
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
-                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <img
+                    src={teamBoss}
+                    className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"
+                  />
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Adama Samake</h3>
+                    <h3 className="text-xl text-white font-bold">
+                      Adama Samake
+                    </h3>
                     <p className="text-secondary">Présidente</p>
                   </div>
                 </div>
@@ -215,91 +245,78 @@ export function Welcome() {
 
               <div className="carousel-slide">
                 <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
-                  <img src={segal} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
+                  <img
+                    src={segal}
+                    className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"
+                  />
                   <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Assetou Diakite</h3>
+                    <h3 className="text-xl text-white font-bold">
+                      Assetou Diakite
+                    </h3>
                     <p className="text-secondary">Secrétaire Général</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="carousel-slide">
-                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
-                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
-                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
-                    <p className="text-secondary">Vice-President</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="carousel-slide">
-                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
-                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
-                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
-                    <p className="text-secondary">Vice-President</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="carousel-slide">
-                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
-                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
-                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
-                    <p className="text-secondary">Vice-President</p>
-                  </div>
-                </div>
-              </div>
-             
-              <div className="carousel-slide">
-                <div className="bg-base-200/50 border border-x-2 border-white flex h-full justify-center relative overflow-hidden">
-                  <img src={teamBoss} className="w-full hover:grayscale-0 hover:scale-150 transition-all grayscale-100 z-0"/>
-                  <div className="flex flex-col items-center absolute p-3 bottom-0 z-1">
-                    <h3 className="text-xl text-white font-bold">Michael Lanjard</h3>
-                    <p className="text-secondary">Vice-President</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="carousel-pagination absolute bottom-3 end-10 start-0 flex justify-end gap-3"></div>
-         
         </div>
       </div>
-      <div className={`flex flex-wrap p-10 bg-gray-500 mb-0 lg:p-20 mt-10 gap-5 lg:mt-20 w-full overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000`} >
-         
+      <div
+        className={`flex flex-wrap p-10 bg-gray-500 mb-0 lg:p-20 mt-10 gap-5 lg:mt-20 w-full overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000`}
+      >
         <div className="flex flex-col bg-black text-white py-24 px-12 flex-1">
           <span className="text-5xl font-extrabold text-white">01</span>
           <h2 className="text-3xl text-secondary my-3">Rendre autonome</h2>
-          <p className="font-light text-lg ">Nos programmes visent à répondre aux besoins de première
-             nécessité tels que l’accès à l’eau potable, la sécurité alimentaire, la santé, l’éducation et l’emploi. Nous adoptons une approche globale qui aborde ces besoins de manière interconnectée, afin de garantir des résultats durables.</p>
+          <p className="font-light text-lg ">
+            Nos programmes visent à répondre aux besoins de première nécessité
+            tels que l’accès à l’eau potable, la sécurité alimentaire, la santé,
+            l’éducation et l’emploi. Nous adoptons une approche globale qui
+            aborde ces besoins de manière interconnectée, afin de garantir des
+            résultats durables.
+          </p>
         </div>
 
         <div className="flex flex-col bg-primary text-white py-24 px-12 flex-1">
           <span className="text-5xl font-extrabold text-white">02</span>
           <h2 className="text-3xl text-secondary my-3">Zones reculées</h2>
-          <p className="font-light text-lg ">Les zones reculées sont souvent les plus touchées par la pauvreté, les maladies, le manque d’accès à l’eau potable, à l’éducation et à d’autres besoins fondamentaux. Les populations vivant dans ces régions sont confrontées à des défis majeurs qui entravent leur développement et leur bien-être.</p>
+          <p className="font-light text-lg ">
+            Les zones reculées sont souvent les plus touchées par la pauvreté,
+            les maladies, le manque d’accès à l’eau potable, à l’éducation et à
+            d’autres besoins fondamentaux. Les populations vivant dans ces
+            régions sont confrontées à des défis majeurs qui entravent leur
+            développement et leur bien-être.
+          </p>
         </div>
 
         <div className="flex flex-col bg-secondary text-white py-24 px-12 flex-1">
           <span className="text-5xl font-extrabold text-white">03</span>
           <h2 className="text-3xl text-primary my-3">Suivi</h2>
-          <p className="font-light text-lg ">Nous réalisons des évaluations régulières pour mesurer l’impact de nos actions et identifier les domaines qui nécessitent des ajustements ou des améliorations. Ces évaluations nous permettent de recueillir des données objectives sur les progrès réalisés, les défis rencontrés et les leçons apprises. Nous utilisons ces informations pour orienter nos futures interventions et maximiser notre efficacité.</p>
+          <p className="font-light text-lg ">
+            Nous réalisons des évaluations régulières pour mesurer l’impact de
+            nos actions et identifier les domaines qui nécessitent des
+            ajustements ou des améliorations. Ces évaluations nous permettent de
+            recueillir des données objectives sur les progrès réalisés, les
+            défis rencontrés et les leçons apprises. Nous utilisons ces
+            informations pour orienter nos futures interventions et maximiser
+            notre efficacité.
+          </p>
         </div>
-
       </div>
 
       <div className="flex flex-wrap bg-primary justify-between text-white p-10 lg:my-20 w-full overflow-x-hidden intersect:motion-preset-slide-up motion-duration-2000">
         <div className="flex">
-        <span className="icon-[tabler--phone] size-8"></span>
-        <div className="flex flex-col mx-2 gap-2.5">
-          <h1 className="text-xl lg:text-3xl font-extralight">Contactez nous! +223 66 99 600 550</h1>
-          <p className="font-extralight mb-5 lg:mb-0"> Association basée à Montauban (82000) </p>
+          <span className="icon-[tabler--phone] size-8"></span>
+          <div className="flex flex-col mx-2 gap-2.5">
+            <h1 className="text-xl lg:text-3xl font-extralight">
+              Contactez nous! +223 66 99 600 550
+            </h1>
+            <p className="font-extralight mb-5 lg:mb-0">
+              {" "}
+              Association basée à Montauban (82000){" "}
+            </p>
+          </div>
         </div>
-        </div>
-       
 
         <div className="flex flex-col gap-2.5 items-end">
           <span className="font-extralight"> Suivez nous</span>
@@ -318,8 +335,6 @@ export function Welcome() {
             </a>
           </div>
         </div>
-        
-
       </div>
     </>
   );
